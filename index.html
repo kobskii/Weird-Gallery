@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Photo Gallery</title>
+	<link rel="stylesheet" href="CSS/gallery.css">
+	<script src="JS/gallery.js"></script>
+</head>
+<body onload="addTabIndex()">
+
+	<h1>Weird Gallery</h1>
+
+	<div id="image">
+		Hover over an image below to display here.
+	</div>
+
+	<div id="thumbnails">
+		<img class="preview" alt="Oshang"
+			src="IMG/Oshang.jpg"
+			onmouseover="upDate(this)" onmouseout="unDo()"
+			onfocus="upDate(this)" onblur="unDo()">
+
+		<img class="preview" alt="White Cat"
+			src="img/White Cat.jpg"
+			onmouseover="upDate(this)" onmouseout="unDo()"
+			onfocus="upDate(this)" onblur="unDo()">
+
+		<img class="preview" alt="LEOOOO"
+			src="img/Leo.jpg"
+			onmouseover="upDate(this)" onmouseout="unDo()"
+			onfocus="upDate(this)" onblur="unDo()">
+
+		<img class="preview" alt="huh?"
+			src="img/huh.jpg"
+			onmouseover="upDate(this)" onmouseout="unDo()"
+			onfocus="upDate(this)" onblur="unDo()">
+
+		<img class="preview" alt="breads?"
+			src="img/Bread.jpg"
+			onmouseover="upDate(this)" onmouseout="unDo()"
+			onfocus="upDate(this)" onblur="unDo()">
+
+		<img class="preview" alt="Blue Whale"
+			src="img/Blue Whale.jpg"
+			onmouseover="upDate(this)" onmouseout="unDo()"
+			onfocus="upDate(this)" onblur="unDo()">
+	</div>
+
+</body>
+</html>
