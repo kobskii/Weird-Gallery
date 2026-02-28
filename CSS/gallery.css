@@ -1,0 +1,43 @@
+/*Name this external file gallery.css*/
+body {
+    margin: 2%;
+    border: 1px solid black;
+    background-color: #b3b3b3;
+}
+
+h1 {
+    text-align: center;
+    font-family: Georgia, serif;
+    color: #333;
+}
+
+#image {
+    line-height: 650px;
+    width: 575px;
+    height: 575px;
+    border: 5px solid black;
+    margin: 0 auto;
+    background-color: #8e68ff;
+    background-image: url('');
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    text-align: center;
+    background-size: 100%;
+    margin-bottom: 25px;
+    font-size: 200%;
+}
+
+#thumbnails {
+    text-align: center;
+}
+
+.preview {
+    width: 10%;
+    margin-left: 2%;
+    border: 10px solid black;
+    cursor: pointer;
+}
+
+.preview:focus {
+    outline: 4px solid #ffdd00;
+}
